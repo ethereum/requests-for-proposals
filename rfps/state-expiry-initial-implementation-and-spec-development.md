@@ -88,6 +88,8 @@ Familiarity with the concept of imposing economic bounds on the total state size
 
 The scope of this work is large enough that we will be preferring teams over individuals. Individuals are still encouraged to submit a proposal as there may be options available for collaboration.
 
+This RfP is intented to be an on-ramp to core protocol development.  We are not interested in "mercinary" work.  Applicants should have an intrinsic interest in continued work on the core Ethereum protocols.
+
 
 ## Bidding Instructions
 
