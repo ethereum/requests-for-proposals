@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Ethereum Foundation would like to announce a Request for Proposals (RfP) for the research and development needed to take the proposed concept for "State Expiry" from it's current form into a complete specification and client implementation.
+The Ethereum Foundation would like to announce a Request for Proposals (RfP) for the research and development needed to take the proposed concept for "State Expiry" from its current form into a complete specification and client implementation.
 
 State Expiry is a proposed scheme for introducing economic bounds on the total state size necessary to operate a node on the Ethereum network. The current proposed scheme is currently described in this post from the Ethereum Research forum: https://ethresear.ch/t/resurrection-conflict-minimized-state-bounding-take-2/8739
 
@@ -88,7 +88,7 @@ Familiarity with the concept of imposing economic bounds on the total state size
 
 The scope of this work is large enough that we will be preferring teams over individuals. Individuals are still encouraged to submit a proposal as there may be options available for collaboration.
 
-This RfP is intented to be an on-ramp to core protocol development.  We are not interested in "mercinary" work.  Applicants should have an intrinsic interest in continued work on the core Ethereum protocols.
+This RfP is intented to be an on-ramp to core protocol development.  We are not interested in "mercenary" work.  Applicants should have an intrinsic interest in continued work on the core Ethereum protocols.
 
 
 ## Bidding Instructions
