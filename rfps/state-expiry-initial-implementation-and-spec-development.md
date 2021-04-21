@@ -6,14 +6,35 @@ The Ethereum Foundation would like to announce a Request for Proposals (RfP) for
 
 State Expiry is a proposed scheme for introducing economic bounds on the total state size necessary to operate a node on the Ethereum network. The current proposed scheme is currently described in this post from the Ethereum Research forum: https://ethresear.ch/t/resurrection-conflict-minimized-state-bounding-take-2/8739
 
-This proposal has two primary goals.
+This proposal is for an open ended engagement with three goals to be implemented in two stages.
 
-- Expand the proposed scheme into a complete specification
-- Implement it in one of the mainnet Ethereum client codebases. (Besu, Geth, Nethermind, OpenEthereum, TurboGeth)
+1. Stage 1:
+    - Additional research into the proposed scheme to validate the approach and gain broader buy in from core devs
+2. Stage 2:
+    - Implement it in one of the mainnet Ethereum client codebases. (Besu, Geth, Nethermind, OpenEthereum, TurboGeth).
+    - A complete specification in the form of an EIP suitable for consideration by core devs and implementations by other client teams.
 
 ## Scope
 
-Create an implementation of the epoch based state expiry scheme in one of the mainnet ethereum clients and an accompanying specification in the form of one or more EIPs.  The implementation should be suitable for running a test network.  The EIPs should fully specify all changes necessary for the core consensus protocol.
+We are looking for an open ended engagement with an individual or team who can commit their time towards the research and development necessary to bring "State Expiry" to a point where it can be included in the core Ethereum protocol.
+
+The vendor should expect to:
+
+- Leverage communication channels such as the R&D Discord and Research forums to engage the core development community
+- Produce technical write ups and explanations of the proposed scheme
+
+
+### Stage 1 (1-3 months)
+
+"State Expiry" is currently only loosely specified in the linked Ethereum Research forum post. Additional research is necessary to extend what is layed out in the forum post into a more fully specified set of protocol changes.  In this stage, vendor should focus on more detailed write ups, exploration into potential problems, exploration and understanding of any trade-offs present in the scheme, and continuous feedback and engagement from the core development community.
+
+
+### Stage 2 (2-6 months)
+
+Once research has validated that the scheme appears to be viable, and has buy-in from the core development community, work should shift towards a concrete spec and accompanying implementation in a mainnet Ethereum client.  
+
+- The specification should take the form of one or more EIP documents.  
+- The implementation should be suitable for running a test network
 
     
 ## Process Summary
@@ -29,7 +50,7 @@ The entire process can be summarized as follows:
 
 ## Timeline
 
-We expect this project to take around six months, however we also expect this to vary based on things like team size and prior expertise. Proposals should include a projected development timeline which we will actively re-evaluate as the project progresses.
+We expect this engagement to be open ended with an estimated lower bound of 6 months and upper bound of 18 months.
 
 
 ## Deliverables
@@ -55,11 +76,14 @@ If the vendor chooses to be paid in ETH, the value of ETH described under the ag
 
 ## Selection Criteria
 
-The selected vendor will have significant expertise in the areas necessary to meet the needs and requirements set forth in this RfP. Particularly:
+The selected vendor will *either* have significant expertise in the areas necessary to meet the needs and requirements set forth in this RfP **or** have sufficient base knowledge and expressed intent to learn. 
+
+Areas of expertise that will be beneficial:
 
 ```
 Familiarity with the Ethereum "State" trie
 Familiarity with the EVM
+Familiarity with the concept of imposing economic bounds on the total state size
 ```
 
 The scope of this work is large enough that we will be preferring teams over individuals. Individuals are still encouraged to submit a proposal as there may be options available for collaboration.
