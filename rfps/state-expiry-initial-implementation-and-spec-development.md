@@ -4,7 +4,7 @@
 
 The Ethereum Foundation would like to announce a Request for Proposals (RfP) for the research and development needed to take the proposed concept for "State Expiry" from its current form into a complete specification and client implementation.
 
-State Expiry is a proposed scheme for introducing economic bounds on the total state size necessary to operate a node on the Ethereum network. The current proposed scheme is currently described in this post from the Ethereum Research forum: https://ethresear.ch/t/resurrection-conflict-minimized-state-bounding-take-2/8739
+State Expiry is a proposed scheme for introducing economic bounds on the total state size necessary to operate a node on the Ethereum network. The current proposed scheme is currently described in this document: https://hackmd.io/@vbuterin/state_expiry_paths
 
 This proposal is for an open ended engagement with three goals to be implemented in two stages.
 
@@ -26,7 +26,7 @@ The vendor should expect to:
 
 ### Stage 1 (1-3 months)
 
-"State Expiry" is currently only loosely specified in the linked Ethereum Research forum post. Additional research is necessary to extend what is layed out in the forum post into a more fully specified set of protocol changes.  In this stage, vendor should focus on more detailed write ups, exploration into potential problems, exploration and understanding of any trade-offs present in the scheme, and continuous feedback and engagement from the core development community.
+"State Expiry" is currently only loosely specified in the linked HackMD document. Additional research is necessary to extend what is layed out in the HackMD document into a more fully specified set of protocol changes.  In this stage, vendor should focus on more detailed write ups, exploration into potential problems, exploration and understanding of any trade-offs present in the scheme, and continuous feedback and engagement from the core development community.
 
 
 ### Stage 2 (2-6 months)
