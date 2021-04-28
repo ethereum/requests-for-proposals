@@ -6,16 +6,40 @@ The Ethereum Foundation would like to announce a Request for Proposals (RfP) for
 
 The proposed mechanism for this extension can be found here on the Ethereum Magicians forum: https://ethereum-magicians.org/t/increasing-address-size-from-20-to-32-bytes/5485
 
-This proposal has two primary goals.
+This proposal is for an open ended engagement with three goals to be implemented in two stages.
 
-- Expand the proposed scheme into a complete specification
-- Implement it in one of the mainnet Ethereum client codebases. (Besu, Geth, Nethermind, OpenEthereum, TurboGeth)
+1. Stage 1:
+    - Additional research into the proposed mechanism for expanding addresses to 32 bytes to validate the approach and gain broader buy in from core devs
+2. Stage 2:
+    - Implement it in one of the mainnet Ethereum client codebases. (Besu, Geth, Nethermind, OpenEthereum, TurboGeth).
+    - A complete specification in the form of an EIP suitable for consideration by core devs and implementations by other client teams.
 
 ## Scope
 
-Implement the extension of addresses from 20 bytes to 32 bytes in one of the mainnet ethereum clients as well as creating an accompanying specification in the form of an EIP.
+We are looking for an open ended engagement with an individual or team (referred to as "vendor") who can commit their time towards the research and development necessary to modify the core Ethereum protocol to support 32 byte addresses.
 
-In addition, vendor will analyze and report on the impact this change would have on the broader ecosystem of tooling.
+The vendor should expect to:
+
+- Analyze and report on the impact this change would have on the broader ecosystem of tooling.
+- Leverage communication channels such as the R&D Discord and Research and Magicians forums to engage the core development community
+    - Research Forums: https://ethresear.ch/
+    - Magicians Forums: https://ethereum-magicians.org/
+    - R&D Discord: *Invite available upon request*
+- Produce technical write ups and explanations of the proposed scheme
+
+### Stage 1
+
+The expansion of Ethereum addresses from 20 bytes to 32 bytes is currently only loosely specified in the linked Ethereum Magicians forum post. Additional research is necessary to extend what is layed out in tha HackMD document into a fully specified set of protocol changes.  In this stage, vendor should focus on gaining a detailed understanding of the problem, producing detailed write ups of what they learn, exploration into potential problems, exploration and understanding of any trade-offs present in the scheme.  This process should include continuous feedback and engagement with the core development community.
+
+
+### Stage 2
+
+Once research has validated that the address expansion appears to be viable, and there is clear buy-in from the core development community, work should shift towards a concrete spec and accompanying implementation in a mainnet Ethereum client.  
+
+- The specification should take the form of one or more EIP documents
+- The implementation should be suitable for running a test network
+
+> EIP: Ethereum Improvement Proposals - https://github.com/ethereum/EIPs
 
     
 ## Process Summary
@@ -40,6 +64,8 @@ We expect this project to take around four months, however we also expect this t
 - A Specification suitable for broader client adoption.  This will likely be a collection of EIP proposals.
 - A mainnet client implementation in a fork of one of the existing mainnet client codebases.
 - Presentation of EIP proposals in AllCoreDevs and engagement in AllCoreDevs discussions.
+- Attendence and engagement in public calls such as AllCoreDevs
+- Engaging with the EF on experiments, analytics, etc if requested
 
 
 ## Fee Structure
@@ -61,11 +87,11 @@ The selected vendor will have significant expertise in the areas necessary to me
 
 ```
 Familiarity with the Ethereum "State" trie
-Familiarity with the EVM
+Familiarity with the EVM and the various places where 20-byte address types are used.
 Familiarity with how ecosystem tooling uses addresses
 ```
 
-The scope of this work is large enough that we will be preferring teams over individuals. Individuals are still encouraged to submit a proposal as there may be options available for collaboration.
+> The scope of this work is large enough that we will be preferring teams over individuals. Individuals are still encouraged to submit a proposal as there may be options available for collaboration.
 
 
 ## Bidding Instructions
