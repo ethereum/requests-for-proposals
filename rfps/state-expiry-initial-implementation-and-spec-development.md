@@ -16,26 +16,30 @@ This proposal is for an open ended engagement with three goals to be implemented
 
 ## Scope
 
-We are looking for an open ended engagement with an individual or team who can commit their time towards the research and development necessary to bring "State Expiry" to a point where it can be included in the core Ethereum protocol.
+We are looking for an open ended engagement with an individual or team (referred to as "vendor") who can commit their time towards the research and development necessary to bring "State Expiry" to a point where it can be included in the core Ethereum protocol.
 
 The vendor should expect to:
 
-- Leverage communication channels such as the R&D Discord and Research forums to engage the core development community
+- Leverage communication channels such as the R&D Discord and Research and Magicians forums to engage the core development community
+    - Research Forums: https://ethresear.ch/
+    - Magicians Forums: https://ethereum-magicians.org/
+    - R&D Discord: *Invite available upon request*
 - Produce technical write ups and explanations of the proposed scheme
 
 
-### Stage 1 (1-3 months)
+### Stage 1
 
-"State Expiry" is currently only loosely specified in the linked HackMD document. Additional research is necessary to extend what is layed out in the HackMD document into a more fully specified set of protocol changes.  In this stage, vendor should focus on more detailed write ups, exploration into potential problems, exploration and understanding of any trade-offs present in the scheme, and continuous feedback and engagement from the core development community.
+"State Expiry" is currently only loosely specified in the linked HackMD document. Additional research is necessary to extend what is layed out in the HackMD document into a fully specified set of protocol changes.  In this stage, vendor should focus on gaining a detailed understanding of the problem, producing detailed write ups of what they learn, exploration into potential problems, exploration and understanding of any trade-offs present in the scheme.  This process should include continuous feedback and engagement with the core development community.
 
 
-### Stage 2 (2-6 months)
+### Stage 2
 
-Once research has validated that the scheme appears to be viable, and has buy-in from the core development community, work should shift towards a concrete spec and accompanying implementation in a mainnet Ethereum client.  
+Once research has validated that the scheme appears to be viable, and there is clear buy-in from the core development community, work should shift towards a concrete spec and accompanying implementation in a mainnet Ethereum client.  
 
-- The specification should take the form of one or more EIP documents.  
+- The specification should take the form of one or more EIP documents
 - The implementation should be suitable for running a test network
 
+> EIP: Ethereum Improvement Proposals - https://github.com/ethereum/EIPs
     
 ## Process Summary
 
