@@ -63,6 +63,8 @@ We expect this engagement to be open ended with an estimated lower bound of 6 mo
 - A Specification suitable for broader client adoption.  This will likely be a collection of EIP proposals.
 - A mainnet client implementation in a fork of one of the existing mainnet client codebases.
 - Presentation of EIP proposals in AllCoreDevs and engagement in AllCoreDevs discussions.
+- Attendence and engagement in public calls such as AllCoreDevs
+- Engaging with the EF on experiments, analytics, etc if requested
 
 
 ## Fee Structure
