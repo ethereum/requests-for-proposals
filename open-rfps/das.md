@@ -40,6 +40,7 @@ Note that designs should be analyzed/tested in both the happy case as well as un
  * Temporary withholding attack (same attack but attacker later makes the data available)
  * Targeted eclipse attacks, where the attacker makes samples available to a subset of node, but not enough to reconstruct the data
  * DOS attacks, where the attacker breaks data availability sampling in such a way that all or a certain subset of samples are never retrievable
+
 Analyzing these attacks as well as coming up with new ones is part of this RFP.
 
 ## RFP Details
