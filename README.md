@@ -4,6 +4,5 @@ This is a public repository of Requests for Proposals (RfP) for work and project
 
 ## Open RFPs
 
-* [Staking Operator Documentation](./open-rfps/staking-operator-docs.md) -- **Proposals due July 8, 2022**
-* [Data Availability Sampling Networking](./open-rfps/das.md) -- **Proposals due July 1, 2022**
+* [Pectra System Contracts Bytecode Audit](./open-rfps/pectra-system-contracts-audit.md) -- **Proposals due October 11, 2024**
 
