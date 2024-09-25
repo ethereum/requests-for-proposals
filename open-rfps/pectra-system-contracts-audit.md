@@ -4,7 +4,7 @@ The Ethereum Foundation is soliciting proposals for an audit of the bytecode of 
 
 ## Audit Requirements
 
-The audit should focus **exclusively** on the smart contract bytecode, referenced in the pull requests below. It **should not** encompass all of the EIPs, or client implementations of the EIPs, including their interactions with the contracts. 
+The audit should focus **exclusively** on the smart contract bytecode, referenced in the EIPs below. It **should not** encompass all of the EIPs, or client implementations of the EIPs, including their interactions with the contracts. 
 
 The audit should validate whether the contracts' bytecode meet the functionality described in the EIPs. The audit should also highlight any potential security vulnerabilities associated with the contract, both as part of its normal utilization and by malicious users. If and where applicable, the audit should ideally propose fixes or improvements to the contract code.
 
